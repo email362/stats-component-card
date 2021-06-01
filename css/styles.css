@@ -1,0 +1,55 @@
+html {
+    color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+}
+.purple {
+    color:hsl(277, 64%, 61%);
+}
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 1440px;
+    background-color: hsl(233, 47%, 7%);
+    padding: 10%;
+}
+.card {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: hsl(244, 38%, 16%);
+}
+.card-txt {
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card-img {
+    background-color:hsl(277, 64%, 61%);
+}
+.card-img img {
+    opacity: 0.4;
+}
+.title-txt {
+    margin-bottom: 146px;
+}
+.stat-txt {
+    display: flex;
+    justify-content: space-between;
+}
+.txt-upper {
+    text-transform: uppercase;
+}
+.font-color-3 {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.font-color-2 {
+    color: hsla(0, 0%, 100%, 0.75);
+}
