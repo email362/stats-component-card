@@ -1,7 +1,18 @@
 html {
     color: hsl(0, 0%, 100%);
     box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
 .purple {
     color:hsl(277, 64%, 61%);
 }
@@ -21,9 +32,11 @@ body {
 }
 .card {
     display: flex;
-    width: 1000px;
+    width: 1080px;
+    height: 446px;
     margin: 0 auto;
     background-color: hsl(244, 38%, 16%);
+    border-radius: 5px;
 }
 .card-txt {
     padding-left: 50px;
@@ -32,13 +45,23 @@ body {
     padding-bottom: 20px;
 }
 .card-img {
-    background-color:hsl(277, 64%, 61%);
+    background-color:hsl(277, 87%, 35%);
+    border-radius: 0 5px 5px 0;
 }
 .card-img img {
     opacity: 0.4;
+    border-radius: inherit;
 }
 .title-txt {
-    margin-bottom: 146px;
+    margin-top: 52px;
+    margin-bottom: 75px;
+}
+.stat h3 {
+    font-size: 28px;
+}
+.stat p, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .stat-txt {
     display: flex;
